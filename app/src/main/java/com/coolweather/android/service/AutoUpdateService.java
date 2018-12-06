@@ -29,7 +29,7 @@ import okhttp3.Callback;
 import okhttp3.Response;
 
 public class AutoUpdateService extends Service {
-    private final String key = "33c00ceb7990401eb4ca9932ede7240e";//API密钥
+    private final String key = "751c362292fe43dca595a40f956585aa";//API密钥
     public AutoUpdateService() {
     }
 

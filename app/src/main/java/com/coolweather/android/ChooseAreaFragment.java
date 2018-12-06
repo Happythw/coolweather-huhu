@@ -343,14 +343,14 @@ public class ChooseAreaFragment extends Fragment {
     public void goToGithub(){//跳转到GitHub
         AlertDialog alertDialog = new AlertDialog.Builder(getContext())
                 .setTitle("源码地址")
-                .setMessage("https://github.com/yeliheng/coolweather\n" +
+                .setMessage("https://github.com/Happythw/coolweather-huhu\n" +
                         "你的关注就是对我最大的鼓励！")
                 .setNegativeButton("打开", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent= new Intent();
                         intent.setAction("android.intent.action.VIEW");
-                        Uri content_url = Uri.parse("https://github.com/yeliheng/coolweather");
+                        Uri content_url = Uri.parse("https://github.com/Happythw/coolweather-huhu");
                         intent.setData(content_url);
                         startActivity(intent);
                     }
@@ -367,14 +367,14 @@ public class ChooseAreaFragment extends Fragment {
     public void goToWebsite(){//跳转到官网
         AlertDialog alertDialog = new AlertDialog.Builder(getContext())
                 .setTitle("官方网站")
-                .setMessage("http://www.ccyun.club\n" +
-                        "枫叶人工智能实验室")
+                .setMessage("https://github.com/Happythw\n" +
+                        "乎乎喵喵")
                 .setNegativeButton("打开", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent= new Intent();
                         intent.setAction("android.intent.action.VIEW");
-                        Uri content_url = Uri.parse("http://www.ccyun.club");
+                        Uri content_url = Uri.parse("https://github.com/Happythw");
                         intent.setData(content_url);
                         startActivity(intent);
                     }

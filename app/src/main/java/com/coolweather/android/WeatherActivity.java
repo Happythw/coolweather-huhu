@@ -56,7 +56,7 @@ public class WeatherActivity extends AppCompatActivity {
     private TextView carWashText;//洗车信息
     private TextView sportText;//运动信息
     private ImageView bingPicImg;//必应每日一图
-    private final String key = "33c00ceb7990401eb4ca9932ede7240e";//API密钥
+    private final String key = "751c362292fe43dca595a40f956585aa";//API密钥
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

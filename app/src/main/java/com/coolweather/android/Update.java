@@ -29,7 +29,7 @@ import okhttp3.Response;
  */
 
 public class Update {
-    final public String url = "https://raw.githubusercontent.com/yeliheng/coolweather/master/version.json";//版本请求地址
+    final public String url = "https://raw.githubusercontent.com/Happythw/coolweather-huhu/master/version.json";//版本请求地址
 
     /*
     * 检查版本更新
